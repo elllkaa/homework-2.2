@@ -1,8 +1,8 @@
-public abstract class transport implements Maintainable {
+public abstract class Transport implements Maintainable {
     public String modelName;
     public int wheelsCount;
 
-    public transport(String modelName, int wheelsCount) {
+    public Transport(String modelName, int wheelsCount) {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }

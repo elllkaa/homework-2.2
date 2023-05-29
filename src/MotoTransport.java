@@ -1,4 +1,4 @@
-public class MotoTransport extends transport {
+public class MotoTransport extends Transport {
     public MotoTransport(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
